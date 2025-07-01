@@ -1,4 +1,4 @@
-# Welcome to your Vite app ⚡
+# Welcome to your Vite app 
 
 This is a [Vite](https://vitejs.dev) project created with [`create-vite`](https://www.npmjs.com/package/create-vite).
 

@@ -48,18 +48,5 @@ This project uses [Cypress](https://www.cypress.io) for end-to-end testing.
    npm run cypress:run
    ```
 
-### Writing Tests
-
-Tests are located in the `cypress/e2e/spec.cy.js` file. Cypress provides an intuitive API for writing tests:
-
-```javascript
-describe('Product List', () => {
-  it('should display products and filters', () => {
-    cy.visit('/')
-    cy.get('[data-cy="product-list"]').should('be.visible')
-    cy.get('[data-cy="filters"]').should('be.visible')
-  })
-})
-```
 
 
